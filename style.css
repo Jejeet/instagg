@@ -1,12 +1,84 @@
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    display: grid;
-    grid-template-columns: 1fr 1.5fr 1.25;
-    column-gap: 1rem;
-    min-height: 100vh;
+  display: grid;
+  grid-template-columns: 2.5fr 4.5fr 3.5fr;
+  column-gap: 1rem;
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.story {
+  margin-top: 2rem;
+  height: 7rem;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.5rem 0 1.5rem;
+}
+
+.each_story {
+  height: 6rem;
+  width: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.each_story p {
+  text-align: center;
+  font-size: 12px;
+  padding-top: 4px;
+}
+
+.story__image {
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  border: 2px solid purple;
+  padding: 2px;
+}
+
+
+.each_feed {
+    border: 1px solid #dbdbdb;
+    border-radius: 4px;
+}
+
+.feed__owner {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.feed__owner div {
+    display: flex;
+    align-items: center;
+}
+
+.feed__owner div span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.feed__owner img {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.feed__image img{
+    width: 100%;
+    height: 100%;
 }
