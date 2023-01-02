@@ -22,10 +22,21 @@ aside{
   list-style-type: none;
  
 }
+.aside-list ul li{
+  padding-bottom: 1.4rem;
+}
+.profile-image{
+  border-radius: 10rem;
+  width: 2rem;
+}
 .nav-logo-img{
   width: 8rem;
 }
-
+.nav-footer{
+  margin-top: 18rem;
+  align-items: center;
+  justify-items: center;
+}
 .story {
   margin-top: 2rem;
   height: 7rem;
